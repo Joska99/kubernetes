@@ -3,7 +3,8 @@
 # RUN: sudo su 
 
 # Off swap memory
-swapoff -a; sed -i '/swap/d' /etc/fstab
+swapoff -a
+sed -i '/swap/d' /etc/fstab
 
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
