@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# RECHECK!!
+# TODO: Helm instalation guide
 
 git clone https://github.com/kubernetes-sigs/aws-efs-csi-driver.git
 

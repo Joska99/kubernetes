@@ -5,8 +5,8 @@ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm search repo ingress-nginx --version "*"
 
 # Provide variables
-CHART_VERSION="4.9.1"
-APP_VERSION="1.9.6"
+CHART_VERSION="4.10.0"
+APP_VERSION="1.10.0"
 
 # Create working directory
 mkdir ingress_set_up
